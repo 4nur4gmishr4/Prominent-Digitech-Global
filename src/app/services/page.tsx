@@ -61,7 +61,7 @@ export default function ServicesPage() {
             {/* Hero */}
             <section className="relative bg-[#1A1A1A] py-16 sm:py-24 lg:py-32 overflow-hidden clip-slant">
                 <div className="absolute inset-0 z-0 opacity-30 mix-blend-soft-light" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FF5400' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")` }} />
-                <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#FF5400]/30 via-[#1A1A1A] to-[#1A1A1A]" />
+                <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#FF5400]/30 via-[#1A1A1A] to-[#1A1A1A] animate-gradient-xy" />
                 <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-[#FF5400]/15 rounded-full blur-[100px]" />
 
                 <div className="relative z-10 max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8 text-center">

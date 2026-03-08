@@ -42,7 +42,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
             <div className="absolute inset-0 flex items-center justify-center">
                 <AnimatePresence>
                     {phase !== "dropping" && (
-                        <motion.h1
+                        <motion.div
                             initial={{ filter: "blur(12px)", opacity: 0.5 }}
                             animate={{
                                 filter: phase === "focus" ? "blur(0px)" : "blur(12px)",
@@ -50,10 +50,14 @@ export default function Preloader({ onComplete }: PreloaderProps) {
                             }}
                             exit={{ opacity: 0, transition: { duration: 0.3 } }}
                             transition={{ duration: 0.8, ease: "easeOut" }}
-                            className="text-white text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight z-10 px-4 text-center"
+                            className="z-10 px-4"
                         >
-                            loading your experience.
-                        </motion.h1>
+                            <img
+                                src="/Prominentloaderlogo.png"
+                                alt="Prominent Digitech Global"
+                                className="h-32 sm:h-48 md:h-64 lg:h-80 w-auto object-contain brightness-0 invert drop-shadow-[0_0_30px_rgba(255,255,255,0.2)]"
+                            />
+                        </motion.div>
                     )}
                 </AnimatePresence>
             </div>

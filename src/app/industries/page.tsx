@@ -28,7 +28,7 @@ export default function IndustriesPage() {
         <>
             {/* Hero */}
             <section className="relative bg-[#1A1A1A] py-16 sm:py-24 lg:py-32 overflow-hidden clip-slant">
-                <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#FF5400]/20 via-[#1A1A1A] to-[#1A1A1A]" />
+                <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#FF5400]/20 via-[#1A1A1A] to-[#1A1A1A] animate-gradient-xy" />
                 <div className="absolute -bottom-32 -left-32 w-64 sm:w-96 h-64 sm:h-96 bg-[#FF5400]/15 rounded-full blur-[80px]" />
                 <div className="relative z-10 max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8 text-center">
                     <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}

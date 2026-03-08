@@ -17,19 +17,19 @@ const values = [
 
 const leaders = [
     {
-        name: "James Sterling",
+        name: "Example Founder",
         role: "Founder & CEO",
         quote: "Leadership is not about being in charge. It is about taking care of those in your charge.",
         img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAI2vrVRxChgsxRh2ZPxFfqV2Kcl_R6-5vebRseW2eyHUNR6JFUTUGdFVIXh4phoHPC1FaZb_o2N4KJx8-IAPl2lzAXWqW1adp890Zewym9vPV58pGu5ObnWkDekt4-vq6HwkAuSIKchpDG_GYtpGfViGYB5YFg3s1FIj7y7AuS2T7XPS36XIzzWa2GlIoecgXQPacZZr6uv7EzpgVuamC_xJ2jyGZeCv32i1Kl7q3RRWKFeulBGRaGoH4XZgupmj03SKyraLfwBqzf",
     },
     {
-        name: "Sarah Chen",
+        name: "Example CTO",
         role: "Chief Technology Officer",
         quote: "Technology is best when it brings people together.",
         img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA3Jl9T3nPSIZ6eQfe6KOP956BYiRU5sW-KASQoFxHfbQ3EZasDhZ5YXbkQpLkTkUZmzj5dS28vN1gRdbr4NLRtejdYkfnhY5lphYjj7nqgfBq0GwDFhrmFkxoBi6nMP1GWb5PiJirScIeR1E6ANGR7asbyRn_S32PNwpTRSdqL_aUyRYlm3XFnXovJi_9PDILs_lwh2vR7Oku93ocsWq9id-tb36KMc7XFZQY9nLBVlc7qcP3DFVD1M-AyWsUERHDANx4h4jf5x78D",
     },
     {
-        name: "Michael Ross",
+        name: "Example COO",
         role: "Chief Operating Officer",
         quote: "Efficiency is doing things right; effectiveness is doing the right things.",
         img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAarwj4dAQe7F-RSYJ9xrg9ClFllMpNsV-Mm5W3M9Fn0l1msyYPCNbDT6dXH3LRO2fX8Z-ia1kh7E-9sdMAzucKK9w9ADRdWEIpmR7JbuXbP_AjQW1WlfNkQZbfnzlSLRJykMJUwYh29yrRCkFaEkoIikSCcIKE_y4ZTT5XJUJmwcTB685pCH1nOw08ioyYmZdNA69rjSdo7A3d57zvLgDLphiwD4Xhgn07CTyZPlzje-RFlRVG0TnqK0mwDFeURRM8ol4tgwCRssVv",
@@ -41,7 +41,8 @@ export default function AboutPage() {
         <>
             {/* Hero */}
             <section className="relative bg-[#1A1A1A] py-16 sm:py-24 lg:py-32 overflow-hidden clip-slant">
-                <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#FF5400]/20 via-[#1A1A1A] to-[#1A1A1A]" />
+                {/* Slanted gradient accent - Animated */}
+                <div className="absolute top-0 right-0 w-2/3 h-full bg-gradient-to-l from-[#FF5400]/20 via-[#1A1A1A] to-[#1A1A1A] animate-gradient-xy" />
                 <div className="absolute -bottom-32 -left-32 w-64 sm:w-96 h-64 sm:h-96 bg-[#FF5400]/15 rounded-full blur-[80px]" />
 
                 <div className="relative z-10 max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8">
@@ -95,10 +96,10 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Mission & Vision */}
-            <section className="bg-white py-14 sm:py-20 px-5 md:px-10">
+            < section className="bg-white py-14 sm:py-20 px-5 md:px-10" >
                 <div className="max-w-[1280px] mx-auto">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
                         <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5 }} className="flex flex-col justify-center">
@@ -150,10 +151,10 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Core Values */}
-            <section className="py-14 sm:py-20 px-5 md:px-10 bg-[#F6F1EB]">
+            < section className="py-14 sm:py-20 px-5 md:px-10 bg-[#F6F1EB]" >
                 <div className="max-w-[1280px] mx-auto">
                     <motion.div variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-50px" }} transition={{ duration: 0.5 }} className="text-center max-w-2xl mx-auto mb-12 sm:mb-16">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#121212] mb-4" style={{ fontFamily: "var(--font-heading)" }}>Our Core Values</h2>
@@ -171,10 +172,10 @@ export default function AboutPage() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* Leadership */}
-            <section className="bg-white py-14 sm:py-20 px-5 md:px-10">
+            < section className="bg-white py-14 sm:py-20 px-5 md:px-10" >
                 <div className="max-w-[1280px] mx-auto">
                     <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 sm:mb-12 gap-4">
                         <div className="max-w-xl">
@@ -201,10 +202,10 @@ export default function AboutPage() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section >
 
             {/* CTA */}
-            <section className="py-14 sm:py-20 px-5 md:px-10">
+            < section className="py-14 sm:py-20 px-5 md:px-10" >
                 <div className="max-w-[1280px] mx-auto rounded-2xl sm:rounded-[2rem] bg-gradient-to-br from-[#FF5400] to-[#E64A00] text-white overflow-hidden relative">
                     <div className="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-l from-white/10 to-transparent pointer-events-none" />
                     <div className="relative z-10 flex flex-col md:flex-row items-center justify-between p-8 sm:p-12 md:p-16 gap-8 sm:gap-10">
@@ -222,7 +223,7 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     );
 }
