@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   title: "Prominent Digitech Global | Digital Marketing & IT Solutions",
   description:
     "Transforming good businesses into great success stories. Full-service digital marketing agency driven by creativity, innovation, and results.",
+  icons: {
+    icon: "/Prominentfavicon.png",
+    shortcut: "/Prominentfavicon.png",
+    apple: "/Prominentfavicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -41,7 +46,7 @@ export default function RootLayout({
       >
         <ClientLayout>
           <Navbar />
-          <main className="flex-grow">{children}</main>
+          <main className="flex-grow pt-20 sm:pt-24">{children}</main>
           <Footer />
         </ClientLayout>
       </body>

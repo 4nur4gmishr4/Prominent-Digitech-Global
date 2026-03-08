@@ -55,7 +55,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
                             <img
                                 src="/Prominentloaderlogo.png"
                                 alt="Prominent Digitech Global"
-                                className="h-32 sm:h-48 md:h-64 lg:h-80 w-auto object-contain brightness-0 invert drop-shadow-[0_0_30px_rgba(255,255,255,0.2)]"
+                                className="h-[20rem] sm:h-[24rem] md:h-[28rem] lg:h-[30rem] xl:h-[36rem] w-auto object-contain brightness-0 invert drop-shadow-[0_0_40px_rgba(255,255,255,0.3)] transition-all duration-1000"
                             />
                         </motion.div>
                     )}

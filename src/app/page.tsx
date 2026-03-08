@@ -73,15 +73,6 @@ export default function HomePage() {
         <div className="absolute -bottom-32 -left-32 w-64 sm:w-96 h-64 sm:h-96 bg-[#FF5400]/15 rounded-full blur-[80px]" />
 
         <div className="relative z-10 max-w-[1280px] mx-auto px-5 sm:px-6 lg:px-8 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
-            className="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 text-[#FF5400] text-xs sm:text-sm font-bold tracking-wide mb-6"
-          >
-            <span className="w-2 h-2 rounded-full bg-[#FF5400] animate-pulse" />
-            PROMINENT DIGITECH GLOBAL
-          </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
